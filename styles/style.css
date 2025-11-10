@@ -99,14 +99,16 @@ body {
     padding: 15px;
 }
 
-
-
-
-/* .hero-section {
+.first-section {
     display:flex;
 }
 
-.hero-content {
+.first-content {
     display: flex;
     align-items: center;
-} */
+    justify-content: center;
+} 
+
+.first-title {
+    font-size: 50px;
+}

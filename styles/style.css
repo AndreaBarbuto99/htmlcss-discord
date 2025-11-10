@@ -9,12 +9,32 @@ a {
     text-decoration: none;
 }
 
-header, footer, body {
-     font-family: "Roboto", sans-serif;
+footer,
+body {
+    font-family: "Roboto", sans-serif;
 }
 
-/* Regole pagina */
-.header {
+
+/* Utilities */
+
+.button {
+    padding: 10px;
+    border-radius: 30px;
+    border-style: none;
+}
+
+.col-4 {
+    flex-basis: calc((100%/12) * 4);
+}
+
+.col-8 {
+    flex-basis: calc((100%/12) * 8);
+}
+
+
+/* REGOLE HEADER */
+
+ .header {
     background-color: #255ee9;
     height: 70px;
     display: flex;
@@ -32,11 +52,61 @@ header, footer, body {
     padding: 10px;
 }
 
-.a-button {
+.a-login {
     color: black;
-    padding: 10px;
-    border-radius: 30px;
-    border-style: none;
     border-color: white;
     background-color: white;
 }
+
+.hero-section {
+    background-image: url(/img/jumbo.png);
+    background-size: cover; 
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.hero-content {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+} 
+
+.hero-title {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.hero-p {
+    color: white;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.hero-download {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.hero-discord {
+    background-color: #23272a;
+    color: white;
+    padding: 15px;
+}
+
+
+
+
+/* .hero-section {
+    display:flex;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+} */

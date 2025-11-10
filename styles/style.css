@@ -138,3 +138,27 @@ body {
 .fourth-p {
     padding-top: 40px;
 }
+
+.final-title {
+    width: 40%;
+    margin: 0 auto;
+    
+}
+
+.fourth-title {
+    font-size: 20px;
+    background-image: url(/img/stars.svg);
+}
+
+.button-box {
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.download-button {
+     color: white;
+    border-color: #7289da;
+    background-color: #7289da;
+}

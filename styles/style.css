@@ -14,6 +14,15 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+li {
+    list-style: none;
+    color: white;
+}
+
+ul {
+    padding-top: 20px;
+    line-height: 30px;
+}
 
 /* Utilities */
 
@@ -21,6 +30,10 @@ body {
     padding: 10px;
     border-radius: 30px;
     border-style: none;
+}
+
+.col-3 {
+    flex-basis: calc((100%/12) * 3);
 }
 
 .col-4 {
@@ -39,8 +52,20 @@ body {
     flex-basis: calc((100%/12) * 2);
 }
 
+.col-10 {
+    flex-basis: calc((100%/12) * 10);
+}
+
 .grey-bg {
     background-color: #f6f6f6;
+}
+
+.blue {
+    color: #6f88da;
+}
+
+.white {
+    color: white;
 }
 
 /* REGOLE HEADER */
@@ -119,7 +144,7 @@ body {
 
 .first-content {
     display: flex;
-     width: 70%; 
+    width: 70%;
 }
 
 .first-title {
@@ -129,6 +154,7 @@ body {
 .fourth-section {
     background-color: #f6f6f6;
 }
+
 .fourth-content {
     margin: 0 auto;
     padding-top: 100px;
@@ -142,7 +168,11 @@ body {
 .final-title {
     width: 40%;
     margin: 0 auto;
-    
+
+}
+
+.title-flex {
+    display: flex;
 }
 
 .fourth-title {
@@ -154,11 +184,65 @@ body {
     width: 30%;
     margin: 0 auto;
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .download-button {
-     color: white;
+    color: white;
     border-color: #7289da;
     background-color: #7289da;
+}
+
+.footer-main {
+    padding-top: 50px;
+    height: 400px;
+    background-color: #23272a;
+}
+
+.footer-section-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content-1 {
+    padding-left: 100px;
+}
+
+.footer-content-2 {
+    display: flex;
+
+}
+
+.ita-text {
+    display: inline;
+    padding-left: 10px;
+    color: white;
+    font-weight: 300;
+}
+
+.icons {
+    color: white;
+    padding-top: 10px;
+    letter-spacing: 10px;
+}
+
+.ita-flag {
+    width: 30px;
+}
+
+.last-footer {
+    background-color: #23272a;
+    padding-top: 20px;
+}
+
+.last-footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    border-top: 1px solid #6f88da;
+    padding-top: 10px
+}
+
+.login-button {
+    background-color: #6f88da;
 }
